@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros | TechMascotas</title>
+    <meta name="description" content="Conoce quiénes estamos detrás de TechMascotas y por qué nuestra misión es ayudarte a elegir la mejor tecnología para el cuidado de tus animales.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="apple-touch-icon" href="../favicon.png">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Tech<span>Mascotas</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="analisis/index.html">Análisis</a></li>
+                <li><a href="guias/index.html">Guías</a></li>
+                <li><a href="sobre-nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h1>Nuestra Misión</h1>
+            <p style="margin-top: 20px;">En <strong>TechMascotas</strong> no solo nos apasionan los animales, nos fascina cómo la tecnología puede mejorar su salud y nuestra convivencia con ellos.</p>
+            
+            <p>Sabemos que el mercado está lleno de gadgets que prometen mucho y cumplen poco. Por eso, hemos decidido crear este espacio: un lugar donde analizamos con ojo crítico las últimas novedades en areneros inteligentes, comederos automáticos y domótica felina y canina.</p>
+            
+            <h2 style="margin-top: 30px;">¿Por qué confiar en nosotros?</h2>
+            <p>No somos una tienda. Somos analistas independientes. Nuestro objetivo es que no gastes dinero en productos mediocres. Si un producto es ruidoso, difícil de limpiar o tiene una app que falla, te lo diremos claramente.</p>
+            
+            <h2 style="margin-top: 30px;">Transparencia</h2>
+            <p style="margin-bottom: 20px;"> Mantenemos esta web gracias a los enlaces de afiliación y la publicidad. Esto significa que si compras algo tras leer nuestra guía, recibimos una pequeña comisión sin que a ti te cueste un céntimo más. Así financiamos nuestras horas de investigación y redacción.</p>
+
+            <h3>Contacto</h3>
+            <p>Si tienes dudas o quieres comentar con nosotros cualquier cosa puedes ponerte en contacto con nosotros a traves del siguiente e-mail:</p>
+            <p style="margin-top: 15px; margin-bottom: 15px; font-size:18px; color:#2563eb; text-align: center;"><strong>techmascotas@gmail.com</p>
+        </section>
+    </main>
+
+    <footer style="text-align:center; padding:50px; background:var(--dark); color:#ffffff; margin-top:60px;">
+        <div class="container">
+            <p>&copy; 2026 TechMascotas.com | <a href="politica-privacidad.html" style="color:#ffffff;">Política de Privacidad</a></p>
+            <p style="font-size: 0.75rem; margin-top: 15px; opacity: 0.7;">
+                Aviso: Como afiliado de Amazon, gano una comisión por las compras que cumplan los requisitos. Esto no aumenta el precio para ti y nos ayuda a seguir probando gadgets.
+            </p>
+        </div>
+    </footer>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Utilizamos cookies propias y de terceros para fines analíticos y para mostrarte publicidad y productos de afiliación basados en tus hábitos de navegación. <a href="/politica-privacidad.html">Leer Política de Privacidad</a>.</p>
+        <button id="accept-cookies" class="btn-cookie">Aceptar Cookies</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Comprueba si el usuario ya aceptó las cookies
+            if (!localStorage.getItem("cookiesAceptadas")) {
+                document.getElementById("cookie-banner").style.display = "flex";
+            }
+
+            // Al hacer clic en aceptar, lo guarda en el navegador y oculta el banner
+            document.getElementById("accept-cookies").addEventListener("click", function() {
+                localStorage.setItem("cookiesAceptadas", "true");
+                document.getElementById("cookie-banner").style.display = "none";
+            });
+        });
+    </script>
+</body>
+</html>
