@@ -166,3 +166,40 @@ img {
     height: auto;
     display: block;
 }
+
+/* Estilos para Relacionados sin imágenes */
+.relacionados-text {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #f8fafc;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+
+.relacionados-text h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #1e293b;
+}
+
+.relacionados-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+.relacionados-text li {
+    margin-bottom: 12px;
+}
+
+.relacionados-text a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.relacionados-text a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
