@@ -6,10 +6,10 @@
     --white: #ffffff;
     --amazon: #ff9900;
 }
-
+/* Estilos Globales */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; color: var(--text); background-color: #f1f5f9; }
-.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
 
 /* Navegación */
 .main-header { background: var(--white); padding: 1rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
@@ -50,10 +50,7 @@ body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; color: 
     --amazon: #ff9900;
 }
 
-/* Reset básico */
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; color: var(--text); background-color: #f1f5f9; }
-.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
 
 /* Navegación */
 .main-header { background: var(--white); padding: 1rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 20px; }
