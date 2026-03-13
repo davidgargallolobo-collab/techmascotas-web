@@ -200,3 +200,84 @@ img {
     color: #1d4ed8;
     text-decoration: underline;
 }
+
+/* --- Estilos para Tablas de Análisis --- */
+
+/* Contenedor con scroll para que no se rompa en móviles */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 2rem 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px; /* Asegura que la tabla no se aplaste en pantallas pequeñas */
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #ffffff;
+}
+
+.comparison-table th {
+    background-color: #2c3e50; /* Azul marino profesional */
+    color: #ffffff;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.comparison-table td {
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1;
+    color: #444;
+    vertical-align: middle;
+}
+
+.comparison-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Filas alternas para mejor lectura */
+.comparison-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.comparison-table tr:hover {
+    background-color: #f1f4f6;
+}
+
+/* Estilos de los iconos de Check/Cross */
+.comparison-table td:nth-child(4) {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Botón de compra / Afiliación */
+.btn-buy {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #ff9900; /* Naranja estilo Amazon/comercial */
+    color: white !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-buy:hover {
+    background-color: #e68a00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Etiquetas de "Lo Mejor" y "Lo Peor" */
+.comparison-table td:nth-child(5) { color: #27ae60; font-weight: 500; } /* Verde para pros */
+.comparison-table td:nth-child(6) { color: #e74c3c; font-weight: 500; } /* Rojo para contras */
