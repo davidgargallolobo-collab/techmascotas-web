@@ -3,15 +3,15 @@
   <url><loc>https://techmascotas.com/</loc><priority>1.0</priority></url>
   <url><loc>https://techmascotas.com/analisis/</loc><priority>0.9</priority></url>
   <url><loc>https://techmascotas.com/guias/</loc><priority>0.9</priority></url>
-  <url><loc>https://techmascotas.com/sobre-nosotros.html</loc><priority>0.5</priority></url>
-  <url><loc>https://techmascotas.com/analisis/areneros.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/analisis/lanzadores-pelotas.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/guias/guia-adaptacion-arenero.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/guias/gps-vs-airtag.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/analisis/gps-perros-gatos.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/analisis/mejores-collares-inteligentes.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/guias/salud-tech-datos-actividad.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/analisis/mejores-limas-electricas.html</loc><priority>0.8</priority></url>
-  <url><loc>https://techmascotas.com/analisis/comederos.html</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/sobre-nosotros/</loc><priority>0.5</priority></url>
+  <url><loc>https://techmascotas.com/analisis/areneros/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/analisis/lanzadores-pelotas/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/guias/guia-adaptacion-arenero</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/guias/gps-vs-airtag/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/analisis/gps-perros-gatos/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/analisis/mejores-collares-inteligentes/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/guias/salud-tech-datos-actividad/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/analisis/mejores-limas-electricas/</loc><priority>0.8</priority></url>
+  <url><loc>https://techmascotas.com/analisis/comederos/</loc><priority>0.8</priority></url>
 
 </urlset>
